@@ -5,6 +5,8 @@ id = "SLUS-00355"
 players = 1
 exe = "disc/SLUS_003.55"
 disc = "disc/Duke Nukem - Total Meltdown (USA).cue"
+discs = ["disc/Duke Nukem - Total Meltdown (USA).cue"]
+disc_serials = ["SLUS-00355"]
 load_address = "0x80010000"
 entry_pc = "0x80092C64"
 text_size = "0x000A4000"
@@ -12,17 +14,20 @@ stack_base = "0x801FFFF0"
 
 [prepare_disc]
 out_dir = "disc"
-bin_name = "Duke Nukem - Total Meltdown (USA).bin"
+bin_name = "Duke Nukem - Total Meltdown (USA) (Track 1).bin"
 cue_name = "Duke Nukem - Total Meltdown (USA).cue"
 boot_exe = "SLUS_003.55"
-known_sizes = [707347536]
+known_sizes = [564091920, 707347536]
 known_md5 = [
+  "b9c1668e906bc97e64aa34edffd03558",
   "0fa5626fdc8aabe192314a8bbca649cb",
 ]
 known_sha1 = [
+  "54f92d540edefac02f41079dc2002d28f9749e85",
   "455a7b5821b6a3c2802683d56606b19c0fc90e23",
 ]
 known_crc32 = [
+  "e52219ba",
   "74587c42",
 ]
 
