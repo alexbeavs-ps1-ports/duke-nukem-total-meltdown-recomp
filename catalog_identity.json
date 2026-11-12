@@ -1,0 +1,46 @@
+{
+  "format_version": 1,
+  "game": {
+    "name": "Duke Nukem: Total Meltdown",
+    "id": "SLUS-00355",
+    "boot_exe": "SLUS_003.55"
+  },
+  "marketing": {
+    "description": "",
+    "publisher": "",
+    "year": "",
+    "region": "USA",
+    "players": 1
+  },
+  "rom_identity": {
+    "cue_name": "Duke Nukem - Total Meltdown (USA).cue",
+    "bin_name": "Duke Nukem - Total Meltdown (USA).bin",
+    "track_counts": [
+      4
+    ],
+    "require_cue": true,
+    "data_track": {
+      "size": 707347536,
+      "md5": "0fa5626fdc8aabe192314a8bbca649cb",
+      "sha1": "455a7b5821b6a3c2802683d56606b19c0fc90e23",
+      "crc32": "74587c42"
+    },
+    "disc_fp": "56ad6a52bb4d04a884282fdc5d278d0921087d7829b86b6ab71f4d118e1ba116"
+  },
+  "exe": {
+    "load_address": "0x80010000",
+    "entry_pc": "0x80092C64",
+    "text_size": "0x000A4000",
+    "stack_base": "0x801FFFF0"
+  },
+  "seeds": {
+    "count": 861,
+    "source": "boot_exe_jal"
+  },
+  "warnings": [],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "seeds are first-pass boot-EXE JAL targets (+ entry); expect to grow as overlays / runtime paths are discovered.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}
